@@ -1,0 +1,54 @@
+<html lang = "en">
+	<head>
+		<!--Link to the CSS file-->
+		<link rel = "stylesheet" href = "style.css">
+		<!--Specifies the character set we are using, UTF-8 is standard (on keyboard)-->
+		<meta charset = "UTF-8">
+		<title>
+			Product Landing Page
+		</title>
+		<!--Width of the website is the device the user is using-->
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+	</head>
+	<body>
+    <div class = "container">
+      <header id = "header">
+        <nav id = "nav-bar">
+          <a class = "nav-link" href = "#features">Features</a>
+          <a class = "nav-link" href = "#how-it-works">How It Works</a>
+          <a class = "nav-link" href = "#pricing">Pricing</a>
+        </nav>
+
+        <h1 id = "title" >Product Landing Page</h1>
+        <img id = "header-img" src = "https://img.icons8.com/dusk/64/000000/turtle.png" alt = "Turtle"/>
+      </header>
+
+      <iframe id = "video" width = "480" height = "270"
+              src = "https://www.youtube.com/watch?v=GHQN1Stm6bg">
+      </iframe>
+
+      <form id = "form" action = "https://www.freecodecamp.com/email-submit">
+        <div class = "form-group">
+          <label for = "email" id = "email-label">Email:</label>
+          <input
+                 type = "email"
+                 id = "email"
+                 name = "email"
+                 class = "form-control"
+                 placeholder = "Enter your email"
+                 required/>
+        </div>
+
+        <div class = "form-group">
+          <input type = "submit" id = "submit" class = "submit-button" value = "Submit"/>
+        </div>
+
+        <h3 id = "features"></h3>
+
+        <h3 id = "how-it-works"></h3>
+
+        <h3 id = "pricing"></h3>
+      </form>
+    </div>
+	</body>
+</html>
